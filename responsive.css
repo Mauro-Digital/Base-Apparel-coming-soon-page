@@ -1,0 +1,44 @@
+@media (min-width: 1270px){
+    .container{
+        position: relative;        
+        width: 1270px;
+        height: 800px;
+        background-image: url(./images/bg-pattern-desktop.svg);
+    }
+    .container__logo{        
+        width: 160px;
+    }
+    .container__picture{
+        content: url(./images/hero-desktop.jpg);
+        position: absolute;
+        right: 0;
+    }
+    .container__content{        
+        width: 500px; 
+        margin: 125px 0 0 74px;
+        height: 400px;
+    } 
+    .container__content__title{
+        text-align: left;
+        font-size: 4.1em;
+        letter-spacing: 15px;
+    }  
+    .container__content__description{
+        text-align: left;
+        font-size: 1em;
+        margin: 0 0 40px;
+        line-height: 25px;
+    }     
+    .container__content__form{        
+        width: 100%;
+        height: 60px;        
+    }
+    .container__content__form__email{
+        background-position: 370px;
+    }
+    .container__content__form__button{
+        height: 60px;
+        width: 85px;
+        padding: 14px 32px;
+    }
+}
